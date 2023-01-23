@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_wrapper container">
+        <a href="#"> <img src="./img/logo.svg" alt="logo" /> </a>
+        <form class="header_form">
+          <img class="header_search" src="./img/searchimg.svg" alt="search" />
+          <input
+            class="header_input"
+            placeholder="Search books"
+            type="search"
+          />
+        </form>
+        <div class="header_div">
+          <img src="./img/sun.svg" alt="" />
+          <a href="" class="header__btn">Login</a>
+        </div>
+      </div>
+    </header>
+    <div class="results">
+      <div class="results_wrapper container">
+        <h6 class="results_item">Showing 18 Result(s)</h6>
+        <form class="results_form">
+          <input
+            placeholder="Order by newest"
+            class="results_input"
+            type="month"
+            name=""
+            id=""
+          />
+        </form>
+      </div>
+    </div>
+    <div class="book">
+      <div class="book_wrapper">
+        <div class="book_left">
+          <div class="book__marks">
+            <h5 class="book_item">Bookmarks</h5>
+            <p class="book_text">
+              If you don’t like to read, you haven’t found the right book
+            </p>
+            <div class="book_cards">
+              <div class="book_card">
+                <div class="book_for1">
+                  <h5 class="book_name">Python</h5>
+                  <p class="book_author">David M. Beazley</p>
+                </div>
+                <div class="book_images">
+                  <a href="#">
+                    <img src="./img/bookimages.svg" alt="read more" />
+                  </a>
+                  <a href="#"> <img src="./img/delete.svg" alt="delete" /> </a>
+                </div>
+              </div>
+              <div class="book_card">
+                <div class="book_for1">
+                  <h5 class="book_name">Python</h5>
+                  <p class="book_author">David M. Beazley</p>
+                </div>
+                <div class="book_images">
+                  <a href="#">
+                    <img src="./img/bookimages.svg" alt="read more" />
+                  </a>
+                  <a href="#"> <img src="./img/delete.svg" alt="delete" /> </a>
+                </div>
+              </div>
+              <div class="book_card">
+                <div class="book_for1">
+                  <h5 class="book_name">Python</h5>
+                  <p class="book_author">David M. Beazley</p>
+                </div>
+                <div class="book_images">
+                  <a href="#">
+                    <img src="./img/bookimages.svg" alt="read more" />
+                  </a>
+                  <a href="#"> <img src="./img/delete.svg" alt="delete" /> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="book_right">
+          <div class="book_posts container">
+            <template id="template">
+              <div class="book_post">
+                <div class="book_img">
+                  <img class="img" src="./img/book.png" alt="" />
+                </div>
+                <div class="book_items">
+                  <h5 class="book_title">Python</h5>
+                  <p class="book_writer">David M. Beazley</p>
+                  <p class="book_year">2009</p>
+                  <button class="book_btn">Bookmark</button>
+                  <button class="book_btn2">More Info</button>
+                  <button class="book_btn3">Read</button>
+                </div>
+              </div>
+            </template>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,165 @@
+.book {
+  margin-top: 2px;
+  &_wrapper {
+    display: flex;
+  }
+  &_left {
+    background: #ffffff;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.1);
+    width: 268px;
+    height: 1038px;
+  }
+  &__marks {
+    padding: 15px;
+  }
+  &_item {
+    margin-bottom: 5px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+  }
+  &_text {
+    margin-bottom: 25px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155.6%;
+    color: #000000;
+  }
+
+  &_card {
+    margin-bottom: 15px;
+    padding: 15px 10px;
+    background: #f8fafd;
+    border-radius: 4px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  &_name {
+    margin-bottom: 5px;
+  }
+  &_author {
+    width: 105px;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #757881;
+  }
+  &_images {
+    display: flex;
+    gap: 7px;
+  }
+
+  &_right {
+    width: 100%;
+    background: #f8fafd;
+    display: flex;
+  }
+  &_posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px;
+  }
+  &_post {
+    width: 282px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 12px 18px;
+  }
+  &_img {
+    background: #f8fafd;
+    border-radius: 5px;
+    padding: 18px 20px;
+    margin-bottom: 20px;
+  }
+
+  &_title {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 2px;
+  }
+  &_writer {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #757881;
+  }
+  &_year {
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #757881;
+    margin-bottom: 10px;
+  }
+  &_btn {
+    padding: 10px 25px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    border: none;
+    background: #ffd80d;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:active {
+      background-color: rgba(205, 194, 194, 0.7);
+    }
+  }
+  &_btn2 {
+    padding: 10px 25px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0d75ff;
+    background: rgba(13, 117, 255, 0.05);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+    &:active {
+      background-color: rgba(205, 194, 194, 0.7);
+    }
+  }
+  &_btn3 {
+    margin-top: 5px;
+    padding: 10px 25px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 100%;
+    color: #ffffff;
+    background: #75828a;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+    &:active {
+      background-color: rgba(205, 194, 194, 0.7);
+    }
+  }
+}

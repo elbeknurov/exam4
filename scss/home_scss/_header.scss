@@ -1,0 +1,58 @@
+.header {
+  margin-top: 11px;
+  margin-bottom: 10px;
+
+  &_wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+  }
+  &_form {
+    position: relative;
+  }
+  &_search {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 10px;
+  }
+  &_input {
+    width: 670px;
+    padding: 15px 40px;
+    background: #f8fafd;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    border: none;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000;
+    outline: none;
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.24);
+    }
+  }
+  &_div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__btn {
+    padding: 10px 23px;
+    border: none;
+    background: #0d75ff;
+    border-radius: 4px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    &:hover {
+      color: #000;
+    }
+  }
+}
